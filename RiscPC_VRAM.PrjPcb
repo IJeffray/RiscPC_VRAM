@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -118,16 +118,16 @@ GenerateClassCluster=0
 DocumentUniqueId=AFKHEOOP
 
 [Parameter1]
+Name=Project_Title
+Value=RiscPC_VRAM
+
+[Parameter2]
 Name=Sch_ReleaseDate
 Value=Nov 2024
 
-[Parameter2]
+[Parameter3]
 Name=Sch_RevNo
 Value=1.0
-
-[Parameter3]
-Name=Project_Title
-Value=RiscPC_VRAM
 
 [Configuration1]
 Name=Sources
